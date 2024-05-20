@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:  url(assets/bgimg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.clock-container {
+    text-align: center;
+   padding-top: 80px;
+   color: rgb(239, 240, 250);
+   text-shadow: 5px 5px 5px black
+    
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 100px;
+
+}
+.clock {
+    font-size: 10rem;
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
